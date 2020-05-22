@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: DriverExecutable.DriverTest
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.141 s - in DriverExecutable.DriverTest

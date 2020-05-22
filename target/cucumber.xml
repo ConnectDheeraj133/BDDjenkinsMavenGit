@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="50.660651">
+<testcase classname="To check UI components in greenkart" name="To check naviagtion from itesm page to booking details page" time="7.413585">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer adds an item to cart..........................................passed
+Then cart should be updated with items......................................passed
+And Able to navigate to booking details page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To check naviagtion from booking details page to items page" time="7.033717">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer adds an item to cart..........................................passed
+Then cart should be updated with items......................................passed
+And Able to navigate to booking details page................................passed
+When customer clicks on back button.........................................passed
+Then items page should be dispalyed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To check navigation to country details page" time="6.259062">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer adds an item to cart..........................................passed
+Then cart should be updated with items......................................passed
+And Able to navigate to booking details page................................passed
+When clicks on "Place order" button.........................................passed
+Then country page should eb dispalyed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To check title in items page" time="5.67357">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer sees all the items............................................passed
+Then title of the page should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To check item details in items page" time="5.77412">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer sees any particular item......................................passed
+Then all the details should be displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To check footer details in items page" time="5.149718">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer sees the footer...............................................passed
+Then footer text "© 2019 GreenKart - buy veg and fruits online" should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To make booking with one item" time="6.910901">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer adds an item to cart..........................................passed
+And clicks on proceed button................................................passed
+Then Booking details page should be displayed...............................passed
+And clicks on place order button............................................passed
+Then countryselection page should eb displayed..............................passed
+When user seelcts country and tandc checkbox................................passed
+When customer clickson continue button......................................passed
+Then confirmation page should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check UI components in greenkart" name="To make booking with many item" time="6.445978">
+<system-out><![CDATA[Given customer is on the items page.........................................passed
+When customer ads many items to cart........................................passed
+And clicks on proceed button................................................passed
+Then Booking details page should be displayed...............................passed
+And clicks on place order button............................................passed
+Then countryselection page should eb displayed..............................passed
+When user seelcts country and tandc checkbox................................passed
+When customer clickson continue button......................................passed
+Then confirmation page should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
